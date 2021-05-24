@@ -24,7 +24,7 @@
         <div class="container">
           <img src="cropped-socialassociate-1.png">
           <h1>Under Construction</h1>
-          <h2>Diverse influencer marketing & talent management agency</h2>
+          <h2>diverse influencer marketing & talent management agency</h2>
 
           <span class="site-status">Site Almost Ready</span>
 
@@ -36,7 +36,7 @@
     </main>
 
     <footer>
-      <span>&copy; 2021 Social Associate, <a href="http://www.dxndre.co.uk" target="_blank">D'André Phillips</a></span>
+      <span>&copy; 2021 Social Associate, <a href="http://www.dxndre.co.uk" target="_blank">D'André Phillips</a>. All rights reserved.</span>
     </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
