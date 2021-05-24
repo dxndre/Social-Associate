@@ -18,15 +18,17 @@
   </head>
   <body>
     <main>
-      <div class="inner-content col-12 col-md-8 col-lg-6 col-xl-4">
-        <img src="cropped-socialassociate-1.png">
-        <h1>Under Construction</h1>
-        <h2>Diverse influencer marketing & talent management agency</h2>
+      <div class="inner-content col-12 col-md-8 col-lg-6">
+        <div class="container">
+          <img src="cropped-socialassociate-1.png">
+          <h1>Under Construction</h1>
+          <h2>Diverse influencer marketing & talent management agency</h2>
 
-        <span class="site-status">Site Nearly Ready</span>
+          <span class="site-status">Site Almost Ready</span>
 
-        <div class="progress">
-          <div class="progress-bar w-25 progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          <div class="progress">
+            <div class="progress-bar w-25 progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
         </div>
       </div>
     </main>
