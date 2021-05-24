@@ -55,7 +55,6 @@ body main .inner-content .progress .progress-bar {
   background-color: #1f1f1f;
 }
 body footer {
-  position: absolute;
   background: black;
   color: white;
   padding: 20px 0;
