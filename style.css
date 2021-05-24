@@ -1,0 +1,87 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background: white;
+  margin: 0;
+}
+body main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.66);
+}
+body main .inner-content {
+  text-align: center;
+}
+body main .inner-content h1 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 3em;
+}
+@media screen and (min-width: 768px) {
+  body main .inner-content h1 {
+    font-size: 3em;
+  }
+}
+body main .inner-content h2 {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-weight: 600;
+}
+body main .inner-content .site-status {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1.25em;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  display: block;
+}
+body main .inner-content img {
+  width: 90%;
+  max-width: 300px;
+  margin-bottom: 2.5vh;
+}
+@media screen and (min-width: 768px) {
+  body main .inner-content img {
+    max-width: 400px;
+  }
+}
+body main .inner-content .progress {
+  max-width: 400px;
+  display: grid;
+  margin: 0 auto;
+}
+body main .inner-content .progress .progress-bar {
+  background-color: #1f1f1f;
+}
+body footer {
+  position: absolute;
+  background: black;
+  color: white;
+  padding: 20px 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+body footer span {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0 20px;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+  width: 100%;
+}
+body footer span a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  transition: 0.3s all ease;
+}
+body footer span a:hover {
+  border-bottom: 2px solid white;
+  transition: 0.3s all ease;
+}
+
+/*# sourceMappingURL=style.css.map */
