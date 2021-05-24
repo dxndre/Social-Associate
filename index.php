@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800&display=swap" rel="stylesheet"> 
+  
+    <link href="favicon.png" rel="icon" type="image/x-icon" />
   </head>
   <body>
     <main>
@@ -34,7 +36,7 @@
     </main>
 
     <footer>
-      <span>2021 Social Associate, <a href="http://www.dxndre.co.uk" target="_blank">D'André Phillips</a></span>
+      <span>&copy; 2021 Social Associate, <a href="http://www.dxndre.co.uk" target="_blank">D'André Phillips</a></span>
     </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>

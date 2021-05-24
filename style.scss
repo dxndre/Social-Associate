@@ -80,20 +80,22 @@ body {
 
         span {
             text-transform: uppercase;
-            font-weight: 600;
             padding: 0 20px;
             text-align: center;
             color: white;
             font-size: 1em;
             width: 100%;
+            font-family: var(--bs-font-sans-serif);
 
             a {
                 color: inherit;
                 text-decoration: none;
                 border-bottom: 2px solid rgba(255,255,255,0.5);
+                padding-bottom: 5px;
                 transition: 0.3s all ease;
 
                 &:hover {
+                    color: white;
                     border-bottom: 2px solid white;
                     transition: 0.3s all ease;
                 }
