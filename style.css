@@ -64,7 +64,7 @@ body main .inner-content .progress {
   margin: 15px auto;
   height: 1.5rem;
   width: 275px;
-  box-shadow: 0px 0px 51px -8px #777474;
+  box-shadow: 0px 0px 51px -8px #888888;
 }
 body main .inner-content .progress .progress-bar {
   background-color: #1f1f1f;
