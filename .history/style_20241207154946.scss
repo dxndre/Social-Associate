@@ -13,7 +13,7 @@ body {
         justify-content: center;
         background-color: black;
         color: white;
-        min-height: calc(100vh - 120px);
+        min-height: calc(100vh - 100px);
 
         .inner-content {
             text-align: center;
@@ -78,9 +78,9 @@ body {
             }
 
             .email-link {
-                color: white;
+                color: black;
                 text-decoration: none;
-                border-bottom: 2px solid white;
+                border-bottom: 2px solid black;
                 margin-top: 24px;
                 display: inline-block;
             }
@@ -89,8 +89,7 @@ body {
 
     .carousel-banner {
         // background: #ffd800;
-        background: white;
-        padding: 12px 0;
+        // padding: 12px 0;
         position: relative;
         width: 100%; // Adjust based on your container size
         overflow: hidden;
@@ -98,7 +97,6 @@ body {
     
         .carousel-track {
             display: flex;
-            gap: 20px;
             animation: scroll 20s linear infinite;
     
             span {
@@ -123,9 +121,8 @@ body {
 
             img {
                 width: 200px;
-                height: 72px;
+                height: 100px;
                 object-fit: contain;
-                filter: contrast(2.5)saturate(0);
             }
         }
     
