@@ -75,45 +75,11 @@ body {
                     width: 100%;
                 }
             }
-
-            .email-link {
-                color: black;
-                text-decoration: none;
-                border-bottom: 2px solid black;
-                margin-top: 24px;
-                display: inline-block;
-            }
         }
     }
 
     .carousel-banner {
         background: #ffd800;
-        padding: 10px 0;
-        position: relative;
-        width: 100%; // Adjust based on your container size
-        overflow: hidden;
-        white-space: nowrap; // Prevent text wrapping
-        
-        .carousel-track {
-            display: flex;
-            animation: scroll 20s linear infinite;
-        
-            span {
-                display: inline-block;
-                padding: 0 2rem; // Adjust spacing between repeats
-                font-size: 1.2rem; // Adjust as needed
-            }
-        }
-          
-        @keyframes scroll {
-            from {
-                transform: translateX(0);
-            }
-            to {
-                transform: translateX(-100%);
-            }
-        }
-          
 
         span {
             color: black;
@@ -136,6 +102,8 @@ body {
             color: white;
             font-size: 1em;
             width: 100%;
+            font-weight: 600;
+            font-family: var(--bs-font-sans-serif);
             display: inline-block;
             line-height: 2em;
 
@@ -146,7 +114,8 @@ body {
             a {
                 color: inherit;
                 text-decoration: none;
-                border-bottom: 2px solid rgba(255,255,255,0.75);
+                border-bottom: 2px solid rgba(255,255,255,0.5);
+                padding-bottom: 5px;
                 transition: 0.3s all ease;
 
                 &:hover {
