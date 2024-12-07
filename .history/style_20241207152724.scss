@@ -4,15 +4,14 @@
 
 body {
     font-family: 'Londrina Solid', sans-serif;
-    background: white;
+    background: black;
     margin: 0;
 
     main {
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: black;
-        color: white;
+        background-color: rgba($color: #ffffff, $alpha: 0.66);
         min-height: calc(100vh - 100px);
 
         .inner-content {

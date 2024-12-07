@@ -11,9 +11,8 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: black;
-        color: white;
-        min-height: calc(100vh - 100px);
+        background-color: rgba($color: #ffffff, $alpha: 0.66);
+        min-height: calc(100vh - 64px);
 
         .inner-content {
             text-align: center;
