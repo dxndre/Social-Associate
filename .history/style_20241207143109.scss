@@ -12,7 +12,7 @@ body {
         align-items: center;
         justify-content: center;
         background-color: rgba($color: #ffffff, $alpha: 0.66);
-        min-height: calc(100vh - 100px);
+        min-height: calc(100vh - 64px);
 
         .inner-content {
             text-align: center;
@@ -88,7 +88,7 @@ body {
 
     .carousel-banner {
         background: #ffd800;
-        padding: 12px 0;
+        padding: 10px 0;
         position: relative;
         width: 100%; // Adjust based on your container size
         overflow: hidden;
@@ -138,7 +138,7 @@ body {
     footer {
         background: black;
         color: white;
-        padding: 12px 0;
+        padding: 20px 0;
         bottom: 0;
         left: 0;
         width: 100%;
