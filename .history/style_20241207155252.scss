@@ -1,0 +1,184 @@
+* * {
+    transition: 0.3s all ease;
+}
+
+body {
+    font-family: 'Londrina Solid', sans-serif;
+    background: white;
+    margin: 0;
+
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        color: white;
+        min-height: calc(100vh - 120px);
+
+        .inner-content {
+            text-align: center;
+
+            h1 {
+                text-transform: lowercase;
+                font-weight: bolder;
+                font-size: 2em;
+
+                @media screen and (min-width: 768px) {
+                    font-size: 2.5em;
+                }
+            }
+
+            h2 {
+                font-size: 1em;
+                line-height: 1.5em;
+                font-weight: 600;
+
+                @media screen and (min-width: 768px) {
+                    font-size: 1.25em;
+                    width: 60%;
+                    margin: 0 auto;
+                }
+            }
+
+            .site-status {
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                font-size: 1em;
+                font-weight: bolder;
+                margin-top: 1.5em;
+                margin-bottom: 0.5em;
+                display: block;
+            }
+            
+            img {
+                width: 90%;
+                max-width: 300px;
+                margin-bottom: 5vh;
+
+                @media screen and (min-width: 768px) {
+                    max-width: 400px;
+                }
+            }
+
+            .progress {
+                max-width: 400px;
+                display: grid;
+                margin: 15px auto;
+                height: 1.5rem;
+                width: 275px;
+                box-shadow: 0px 0px 51px -8px #888888;
+
+                .progress-bar {
+                    background-color: #1f1f1f;
+                }
+
+                @media screen and (min-width: 768px) {
+                    width: 100%;
+                }
+            }
+
+            .email-link {
+                color: white;
+                text-decoration: none;
+                border-bottom: 2px solid white;
+                margin-top: 24px;
+                display: inline-block;
+            }
+        }
+    }
+
+    .carousel-banner {
+        // background: #ffd800;
+        background: white;
+        padding: 12px 0;
+        position: relative;
+        width: 100%; // Adjust based on your container size
+        overflow: hidden;
+        white-space: nowrap; // Prevent text wrapping
+    
+        .carousel-track {
+            display: flex;
+            gap: 20px;
+            animation: scroll 20s linear infinite;
+    
+            span {
+                display: inline-block;
+                padding: 0 2rem; // Adjust spacing between repeats
+                font-size: 1.2rem; // Adjust as needed
+                position: relative; // Required for pseudo-elements
+    
+                &::after {
+                    content: "•";
+                    position: absolute;
+                    right: -0.25rem;
+                    color: black;
+                    font-size: 1.5rem;
+                    top: -0.25em;
+                }
+    
+                &:last-of-type::after {
+                    content: ""; // Remove separator from the last item
+                }
+            }
+
+            img {
+                width: 200px;
+                height: 72px;
+                object-fit: contain;
+                filter: contrast(2.5)saturate(0);
+            }
+        }
+    
+        @keyframes scroll {
+            from {
+                transform: translateX(0);
+            }
+            to {
+                transform: translateX(-100%);
+            }
+        }
+    
+        span {
+            color: black;
+            font-size: 1.5em;
+        }
+    }
+    
+
+    footer {
+        background: black;
+        color: white;
+        padding: 12px 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+
+        span {
+            padding: 0 20px;
+            text-align: center;
+            color: white;
+            font-size: 1em;
+            width: 100%;
+            display: inline-block;
+            line-height: 2em;
+
+            @media screen and (min-width: 768px) {
+                line-height: initial;
+            }
+
+            a {
+                color: inherit;
+                text-decoration: none;
+                border-bottom: 2px solid rgba(255,255,255,0.75);
+                transition: 0.3s all ease;
+
+                &:hover {
+                    color: white;
+                    border-bottom: 2px solid white;
+                    transition: 0.3s all ease;
+                }
+            }
+        }
+    }
+}

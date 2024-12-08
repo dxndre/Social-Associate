@@ -1,161 +1,17 @@
-@charset "UTF-8";
-* * {
-  transition: 0.3s all ease;
-}
+/* Error: expected "{".
+ *    ,
+ * 15 |         background-color: rgba($color: #ffffff, $alpha: 0.66);
+ *    |                                                              ^
+ *    '
+ *   style.scss 15:62  root stylesheet */
 
-body {
-  font-family: "Londrina Solid", sans-serif;
-  background: white;
-  margin: 0;
-}
-body main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(255, 255, 255, 0.66);
-  min-height: calc(100vh - 100px);
-}
-body main .inner-content {
-  text-align: center;
-}
-body main .inner-content h1 {
-  text-transform: lowercase;
-  font-weight: bolder;
-  font-size: 2em;
-}
-@media screen and (min-width: 768px) {
-  body main .inner-content h1 {
-    font-size: 2.5em;
-  }
-}
-body main .inner-content h2 {
-  font-size: 1em;
-  line-height: 1.5em;
-  font-weight: 600;
-}
-@media screen and (min-width: 768px) {
-  body main .inner-content h2 {
-    font-size: 1.25em;
-    width: 60%;
-    margin: 0 auto;
-  }
-}
-body main .inner-content .site-status {
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 1em;
-  font-weight: bolder;
-  margin-top: 1.5em;
-  margin-bottom: 0.5em;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
   display: block;
-}
-body main .inner-content img {
-  width: 90%;
-  max-width: 300px;
-  margin-bottom: 5vh;
-}
-@media screen and (min-width: 768px) {
-  body main .inner-content img {
-    max-width: 400px;
-  }
-}
-body main .inner-content .progress {
-  max-width: 400px;
-  display: grid;
-  margin: 15px auto;
-  height: 1.5rem;
-  width: 275px;
-  box-shadow: 0px 0px 51px -8px #888888;
-}
-body main .inner-content .progress .progress-bar {
-  background-color: #1f1f1f;
-}
-@media screen and (min-width: 768px) {
-  body main .inner-content .progress {
-    width: 100%;
-  }
-}
-body main .inner-content .email-link {
-  color: black;
-  text-decoration: none;
+  padding: 1em;
+  margin-bottom: 1em;
   border-bottom: 2px solid black;
-  margin-top: 24px;
-  display: inline-block;
+  content: 'Error: expected "{".\a    \2577 \a 15 \2502          background-color: rgba($color: #ffffff, $alpha: 0.66);\a    \2502                                                               ^\a    \2575 \a   style.scss 15:62  root stylesheet';
 }
-body .carousel-banner {
-  background: #ffd800;
-  padding: 12px 0;
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  white-space: nowrap;
-}
-body .carousel-banner .carousel-track {
-  display: flex;
-  animation: scroll 20s linear infinite;
-}
-body .carousel-banner .carousel-track span {
-  display: inline-block;
-  padding: 0 2rem;
-  font-size: 1.2rem;
-  position: relative;
-}
-body .carousel-banner .carousel-track span::after {
-  content: "•";
-  position: absolute;
-  right: -0.25rem;
-  color: black;
-  font-size: 1.5rem;
-  top: -0.25em;
-}
-body .carousel-banner .carousel-track span:last-of-type::after {
-  content: "";
-}
-@keyframes scroll {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-100%);
-  }
-}
-body .carousel-banner span {
-  color: black;
-  font-size: 1.5em;
-}
-body footer {
-  background: black;
-  color: white;
-  padding: 12px 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  text-align: center;
-}
-body footer span {
-  padding: 0 20px;
-  text-align: center;
-  color: white;
-  font-size: 1em;
-  width: 100%;
-  display: inline-block;
-  line-height: 2em;
-}
-@media screen and (min-width: 768px) {
-  body footer span {
-    line-height: initial;
-  }
-}
-body footer span a {
-  color: inherit;
-  text-decoration: none;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.75);
-  transition: 0.3s all ease;
-}
-body footer span a:hover {
-  color: white;
-  border-bottom: 2px solid white;
-  transition: 0.3s all ease;
-}
-
-/*# sourceMappingURL=style.css.map */
